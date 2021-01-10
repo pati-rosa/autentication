@@ -1,7 +1,5 @@
 import {useState} from 'react';
 
-import axios from 'axios';
-
 function initialState() {
     return {user: '', password:''};
 }
@@ -24,8 +22,6 @@ function FormLogin(){
 
         console.log('user: ' + values.user)
         console.log('password: ' + values.password)
-
-
     }
 
     return(
